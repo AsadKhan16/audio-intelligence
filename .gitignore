@@ -203,6 +203,19 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+
 # Ruff stuff:
 .ruff_cache/
 
@@ -213,6 +226,11 @@ tempCodeRunnerFile.py
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+#database and audio files
+*.wav
+*.mp3
+*.db
 
 # Streamlit
 .streamlit/secrets.toml
